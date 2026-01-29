@@ -37,7 +37,7 @@ def ejecutar_codigo(ruta_script):
         else:  # Linux / Mac
             subprocess.Popen(['xterm', '-hold', '-e', 'python3', ruta_script])
     except Exception as e:
-        print(f"❌ Ocurrió un error al ejecutar el código: {e}")
+        print(f" Ocurrió un error al ejecutar el código: {e}")
 
 
 def mostrar_menu():
